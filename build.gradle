@@ -19,11 +19,6 @@ configurations {
     developmentOnly 
 }
 
-ext {
-    micronautDataVersion = "1.0.0.M5"
-    micronautVersion = "1.2.8"
-}
-
 dependencies {
     compileOnly "io.micronaut.data:micronaut-data-processor:$micronautDataVersion"
     compile "io.micronaut.data:micronaut-data-jdbc:$micronautDataVersion"
